@@ -10,7 +10,7 @@ var getElementInfo = function detectElement() {
 					currentValue:selectedElement.maxLength,
 					description:"The maxlength attribute specifies the maximum number of characters allowed in the <input> element.",
 					helpUrl: "https://www.w3schools.com/tags/att_input_maxlength.asp",
-					idea:"Remove or change the maxLength."
+					idea:"Remove the maxLength attribute."
 				});
 			}
 			if (selectedElement.required != undefined) {
@@ -28,6 +28,15 @@ var getElementInfo = function detectElement() {
 					description:"The <input> element can be displayed in several ways, depending on the type attribute.", 
 					helpUrl: "https://www.w3schools.com/tags/tag_input.asp",
 					idea:"Change the type attribute value i.e. type='text'."
+				});
+			}
+
+			if (selectedElement.tagName === 'INPUT' && selectedElement.type === 'text') {
+				data['input type="' + selectedElement.type + '"'] = ({
+					currentValue:selectedElement.type,
+					description:"The <input> element sometimes allows bad inputs.", 
+					helpUrl: "https://github.com/minimaxir/big-list-of-naughty-strings",
+					idea:"Try inserting a naughty string into this input."
 				});
 			}
 
