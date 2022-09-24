@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Test Ideas DevTools Extension",
+    "description": "A Chrome DevTools Extension to help identify new test ideas.",
+    "version": "0.0.1",
+    "devtools_page": "devtools.html",
+    "permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*",
+		"file:///*/*"
+    ]
+}
