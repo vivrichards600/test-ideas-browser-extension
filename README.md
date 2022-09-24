@@ -13,6 +13,7 @@ A Chrome DevTools Extension to help identify new test ideas when inspecting elem
 
 ## Current Test Ideas
 The following test ideas exist within this extension:
-* maxLength set
-* required set
-* input type != input
+* maxLength set on element
+* required set on element
+* input type != text for input element
+* input type === text for input element
