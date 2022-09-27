@@ -12,6 +12,8 @@ Feel free to contribute to this extension.
 * Select `Load unpacked` and then navigate to the extension folder
 * Navigate to a website and then click on the light bulb icon in the extensions bar. Any test ideas are displayed in the browsers console panel within DevTools
 
+![demo of extension](https://github.com/vivrichards600/test-ideas-devtools-extension/blob/main/images/Extension-demo.gif)
+
 ## Current Test Ideas
 The following test ideas are suggested within this extension:
 * maxlength attribute set - field has a max length attribute set, investigate if removing this is useful
