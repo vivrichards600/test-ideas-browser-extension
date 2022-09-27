@@ -1,19 +1,21 @@
-test-ideas-devtools-extension
+Test Ideas Browser Extension
 ==================================
 
-A Chrome DevTools Extension to help identify new test ideas when inspecting elements.
+A browser extension to help identify new test ideas when viewing a web page.
+
+Feel free to contribute to this extension.
 
 ## Basic Install Instructions
 * Download and extract this repository somewhere
 * Navigate to `chrome://extensions` within Chrome
 * Ensure to switch 'Developer mode' on (a toggle at the top right of the page)
 * Select `Load unpacked` and then navigate to the extension folder
-* Navigate to a website and then right click and inspect an element, or with devtools already open use the inspect tool to inspect an element
-* Within the elements panel on the right, click on the `Test Ideas` panel to view test ideas for the currently selected element
+* Navigate to a website and then click on the light bulb icon in the extensions bar. Any test ideas are displayed in the browsers console panel within DevTools
 
 ## Current Test Ideas
-The following test ideas exist within this extension:
-* maxLength set on element
-* required set on element
-* input type != text for input element
-* input type === text for input element
+The following test ideas are suggested within this extension:
+* maxlength attribute set - field has a max length attribute set, investigate if removing this is useful
+* required attribute set - field has a required attribute set, investigate if removing this is useful
+* input type is of type text - field is of type text and so will accept anything, explore the input range.
+* input type is not of type text - field expects a particular input type, investigate if changing this is useful.
+* input type is hidden field - does this hidden field have a value that looks useful to amend? Idea suggested by eviltester :)
