@@ -21,3 +21,5 @@ The following test ideas are suggested within this extension:
 * input type is of type text - field is of type text and so will accept anything, explore the input range.
 * input type is not of type text - field expects a particular input type, investigate if changing this is useful.
 * input type is hidden field - does this hidden field have a value that looks useful to amend? Idea suggested by eviltester :)
+* tabindex set - does this alter the expected tab order?
+
